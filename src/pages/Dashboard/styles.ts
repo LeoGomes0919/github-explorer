@@ -156,27 +156,3 @@ export const Repositories = styled.div`
     color: #cbcbd6;
   }
 `;
-
-export const Pagination = styled.div`
-  max-width: 700px;
-  padding: 4px 0px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-`;
-
-export const PaginationItem = styled.div`
-  border: 1px solid #d3d3d3;
-  padding: 8px 16px;
-  border-radius: 2px;
-  color: #3d3d3d;
-  cursor: pointer;
-
-  & + {
-    margin-left: 4px;
-  }
-
-  &:hover {
-    background: #ddd;
-  }
-`;
